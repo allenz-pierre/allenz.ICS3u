@@ -1,0 +1,2 @@
+language = "python3"
+run = "python allenz_thing/projet.py"
