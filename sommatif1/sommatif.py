@@ -12,9 +12,17 @@ birth_year = input("Enter your birth year: ")
 age = 2020 - int(birth_year)
 print(age)
 #Acceptation si l'age est plus que 17.
-if age >= 17
-else = print("access denied.")
-print("approved. welcome: " + name )
+if age < 17:
+  print("access denied.")
+elif age >= 17:
+  print("approved. welcome: " + name )
 #Debut de L'application.
-input("what can we do for you today?: ")
-print("Loading.....")
+  input("what can we do for you today?: ")
+  print("Loading.....")
+joke = input("in the mean time, would you like to hear a joke?:")
+if joke == "no":
+  print("well we're still processing so you don't have a choice.")
+elif joke == "yes":
+
+
+  
